@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>my e-commerce site</title>
+    <script src="../vendor/jquery.min.js"></script>
+    <script src="../vendor/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+    
+        <!-- Barre de navigation fixe -->
+
+    <div id="fixe">
+
+        <!-- nav1 -->
+        <div class="container-fluid">
+            <nav class="nav1">
+                <ul class="nav nav-tabs left">
+                    <!-- Login acceuil -->
+                    <li role="" class="dropdown" >
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">compt et liste</a>
+                        <section class="dropdown-menu  dropdown-login">
+                                <label class="seconnecter" for="">Se connecter</label>
+                                <form class="nav navbar-nav form-drop-login">
+                                            <div class="form-group">
+                                              <input type="text" class="form-control" placeholder="Votre adresse e-mail">
+                                            </div>
+                                            <div class="form-group">
+                                              <input type="text" class="form-control" placeholder="Votre mot de pass">
+                                            </div>
+                                            <div class="retourValidation"></div>
+                                            <button type="submit" class="btn btn-primary btn-blue">Envoyer</button>
+                                    </form>
+                                    <div class="container-fluid lien-register"> <a class="" href="">S'inscrire</a> </div>
+                        </section>
+                    </li>
+                    <!-- Panier -->
+                    <li role="" class="dropdown" >
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">pan</a>
+                        <section class="dropdown-menu">
+                            <div class="container-fluid infoPannier"></div>
+                        </section>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- nav2 -->
+        <div class="container-fluid">
+            <nav class="nav2">
+                <span>LOGO</span>
+            </nav>
+        </div>
+
+        <!-- nav3 -->
+        <div class="container-fluid">
+                <nav class="nav3">
+                    <ul class="nav nav-tabs">
+                        <li role="" class="elem-nav3"><a href="#">Hight-Tech</a></li>
+
+                        <!-- Dropdown -->
+
+                        <li class="dropdown elem-nav3">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1</a>
+                                <ul class="dropdown-menu  dropdown1">
+                                  <li><a href="#">Page 1-1</a></li>
+                                  <li><a href="#">Page 1-2</a></li>
+                                  <li><a href="#">Page 1-3</a></li>
+                                </ul>
+                        </li>
+
+                        <!-- Fin Dropdown -->
+
+                        <li role="" class="elem-nav3" ><a href="#">Mobil phon</a></li>
+                        <li role="" class="elem-nav3" ><a href="#">PC Portable</a></li>
+                        <li role="" class="promos" ><a href="#">PROMOS</a></li>
+                        <li class="search">
+                            
+                        </li>
+                    </ul>
+                        <form class="nav navbar-nav navbar-right navbar-form navbar-left">
+                                <button type="submit" class="btn btn-default">Q</button>
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </form>
+                </nav>
+        </div>
+    </div>
+    </header>
+
+        <!-- Corps -->
+    <div class="container-fluid" id="body" class="acceuil">
+
+        <!-- Entete du page d'acceuil -->
+
+        <div class="container-fluid" id="entete">
+            <section id="info-top"></section>
+        </div>
+
+        <!-- Les nouveautées -->
+
+        <div class="container-fluid" id="new">
+                <h2 class="titre">Les nouvautées</h2>
+                <div class="container-fluid content">
+                    <ul>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                        <li class="elem"></li>
+                    </ul>
+                </div>
+            </div>
+
+        <!-- Les plus vendus --> 
+
+        <div class="container-fluid" id="wanted">
+            <h2 class="titre">Les plus demandées</h2>
+            <div class="container-fluid content">
+                    <ul>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                        </ul>
+            </div>
+        </div>
+
+        <!-- Les arcticles avec remise -->
+
+        <div class="container-fluid" id="remise">
+            <h2 class="titre">Profitez les remises jusqu'à 50%!!!!!</h2>
+            <div class="container-fluid content">
+                    <ul>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                            <li class="elem"></li>
+                        </ul>
+            </div>
+        </div>
+
+        <!-- Pied acceuil -->
+
+        <footer class="container-fluid">
+            <div class="container-fluid">
+                <ul>
+                        <li class="footer-elem">
+                            <form class="nav navbar-nav form-footer">
+                                <label for="">Conatcez-nous</label>
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Votre adresse e-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="" id="" cols="55" rows="5" placeholder="content"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-blue">Envoyer</button>
+                            </form>
+                        </li>
+                        <li class="footer-elem" id="info-site">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet maxime odio dolor nobis dicta aperiam beatae quibusdam, nihil non facere qui, quaerat odit minus magni deserunt aliquid asperiores necessitatibus officia.</p>
+                        </li>
+                        <li class="footer-elem" id="coordonee">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis provident, harum vel porro perspiciatis dolorem commodi reiciendis quis saepe enim, expedita natus numquam praesentium explicabo aut odio nostrum? Modi.</p>
+                        </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- pied de page -->
+        <div class="container-fluid" id="end"></div>
+    </div>
+    
+</body>
+</html>
